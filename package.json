@@ -1,0 +1,24 @@
+{
+  "name": "eslint-config-qlean",
+  "version": "1.0.0",
+  "description": "JavaScript Qlean Style - EsLint Shareable Config",
+  "main": "index.js",
+  "peerDependencies": {
+    "babel-eslint": "^8.0.1",
+    "eslint": "^4.10.0",
+    "eslint-config-airbnb": "^16.1.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:Qlean/eslint-config-qlean.git"
+  },
+  "keywords": [
+    "eslint",
+    "lint",
+    "style",
+    "guide",
+    "config"
+  ],
+  "author": "Vadim Shvetsov <vadim@shvetsov.io> (https://github.com/vadimshvetsov)",
+  "license": "MIT"
+}
