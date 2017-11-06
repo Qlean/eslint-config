@@ -4,9 +4,9 @@
   "description": "JavaScript Qlean Style - EsLint Shareable Config",
   "main": "index.js",
   "peerDependencies": {
-    "babel-eslint": "^8.0.1",
-    "eslint": "^4.10.0",
-    "eslint-config-airbnb": "^16.1.0"
+    "babel-eslint": ">= 8",
+    "eslint": ">= 4",
+    "eslint-config-airbnb": ">= 15"
   },
   "repository": {
     "type": "git",

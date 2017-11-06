@@ -1,2 +1,3 @@
-# eslint-config-qlean
-JavaScript Qlean Style - EsLint Shareable Config
+# Eslint Config
+
+JavaScript web and React Native Qlean style shareable configs

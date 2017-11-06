@@ -1,0 +1,25 @@
+{
+  "name": "eslint-config-qlean-react-native",
+  "version": "1.0.0",
+  "description": "JavaScript React Native Qlean Style - EsLint Shareable Config",
+  "main": "index.js",
+  "peerDependencies": {
+    "babel-eslint": ">= 8",
+    "eslint": ">= 4",
+    "eslint-config-airbnb": ">= 15",
+    "eslint-plugin-react-native": ">= 2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:Qlean/eslint-config-qlean.git"
+  },
+  "keywords": [
+    "eslint",
+    "lint",
+    "style",
+    "guide",
+    "config"
+  ],
+  "author": "Vadim Shvetsov <vadim@shvetsov.io> (https://github.com/vadimshvetsov)",
+  "license": "MIT"
+}
