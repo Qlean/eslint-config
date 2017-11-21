@@ -27,5 +27,5 @@
     "node": ">= 4"
   },
   "homepage": "https://github.com/Qlean/eslint-config",
-  "license": "MIT",
+  "license": "MIT"
 }
