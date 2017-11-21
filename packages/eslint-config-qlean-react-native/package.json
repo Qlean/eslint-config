@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:Qlean/eslint-config-qlean.git"
+    "url": "git@github.com:Qlean/eslint-config.git"
   },
   "keywords": [
     "eslint",
@@ -21,5 +21,12 @@
     "config"
   ],
   "author": "Vadim Shvetsov <vadim@shvetsov.io> (https://github.com/vadimshvetsov)",
+  "bugs": {
+    "url": "https://github.com/Qlean/eslint-config/issues"
+  },
+  "engines": {
+    "node": ">= 4"
+  },
+  "homepage": "https://github.com/Qlean/eslint-config",
   "license": "MIT"
 }
