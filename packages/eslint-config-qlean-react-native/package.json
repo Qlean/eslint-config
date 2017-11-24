@@ -4,10 +4,14 @@
   "description": "JavaScript React Native Qlean Style - EsLint Shareable Config",
   "main": "index.js",
   "peerDependencies": {
-    "babel-eslint": ">= 8",
-    "eslint": ">= 4",
-    "eslint-config-airbnb": ">= 15",
-    "eslint-plugin-react-native": ">= 2"
+    "eslint": "^4.9.0",
+    "babel-eslint": "^8.0.1",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-jsx-a11y": "^6.0.2",
+    "eslint-plugin-react": "^7.4.0",
+    "eslint-plugin-react-native": "^3.2.0",
+    "eslint-plugin-no-loops": "^0.3.0"
   },
   "repository": {
     "type": "git",

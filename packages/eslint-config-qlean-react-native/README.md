@@ -1,53 +1,80 @@
 # eslint-config-qlean-react-native
 
-This package provides Qlean's `.eslintrc` as an extensible shared config for linting React Native codebase.
-
 ## Installation
 
-1. Install the correct versions of each package, which are listed by the command:
+Install config with peerDependencies with following command:
 ```sh
-npm info "eslint-config-qlean-react-native" peerDependencies
-```
-2. Install the latest version of `eslint-config-qlean-react-native` package with following command:
-```sh
-npm install --save-dev eslint-config-qlean-react-native
+npm install -D eslint-config-qlean-react-native \
+eslint-config-airbnb@16.1.0 \
+eslint@4.9.0 \
+babel-eslint@8.0.1 \
+eslint-plugin-import@2.8.0 \
+eslint-plugin-jsx-a11y@6.0.2 \
+eslint-plugin-react@7.4.0 \
+eslint-plugin-react-native@3.2.0 \
+eslint-plugin-no-loops@0.3.0
 ```
 
 ## Usage
 
-1. Add `"extends": "qlean-react-native"` to your .eslintrc
+Add `"extends": "qlean-react-native"` to your .eslintrc
 
-## Motivation for disabling rules
+## Motivation
 
 #### global-require
 ```js
-"global-require": 0,
+"global-require": 0
 ```
+Rule is redundant without Node.js
+
 #### react/require-default-props
 ```js
-"react/require-default-props": 0,
+"react/require-default-props": 0
 ```
-#### react-native/split-platform-components
-```js
-"react-native/split-platform-components": 2,
-```
-#### react-native/no-inline-styles
-```js
-"react-native/no-inline-styles": 2,
-```
-#### react-native/no-color-literals
-```js
-"react-native/no-color-literals": 2,
-```
+Rule doesn't work with default params syntax in functional components and doesn't observe isRequired inside imported components
+
 #### react/jsx-filename-extension
 ```js
-"react/jsx-filename-extension": 0,
+"react/jsx-filename-extension": [2, { "extensions": [".js"] }]
 ```
+Use JSX only inside files with `.js` extension
+
+#### react/jsx-curly-spacing
+```js
+"react/jsx-curly-spacing": [2, "never", { "allowMultiline": false }]
+```
+Use stricter option for disallow spaces in paired tags
+
 #### react/jsx-tag-spacing
 ```js
 "react/jsx-tag-spacing": [2, {
   "closingSlash": "never",
   "beforeSelfClosing": "never",
   "afterOpening": "never"
-}],
+}]
 ```
+Forbid spaces near closing bracket
+
+#### react-native/split-platform-components
+```js
+"react-native/split-platform-components": 2
+```
+Use platform specific filenames when you use platform specific components
+
+#### react-native/no-inline-styles
+```js
+"react-native/no-inline-styles": 2
+```
+Inline styles negative affect performance
+
+#### react-native/no-color-literals
+```js
+"react-native/no-color-literals": 2
+```
+Reuse color variables throughout codebase
+
+#### no-loops/no-loops
+```js
+"no-loops/no-loops": 2
+```
+Disallow loops (for, for-in, while, do-while, for-of).

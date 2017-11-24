@@ -1,49 +1,61 @@
 # eslint-config-qlean
 
-This package provides Qlean's `.eslintrc` as an extensible shared config.
-
 ## Installation
 
-1. Install the correct versions of each package, which are listed by the command:
+Install config with peerDependencies by typing following command:
 ```sh
-npm info "eslint-config-qlean" peerDependencies
-```
-2. Install the latest version of `eslint-config-qlean` package with following command:
-```sh
-npm install --save-dev eslint-config-qlean
+npm install -D eslint-config-qlean \
+eslint-config-airbnb@16.1.0 \
+eslint@4.9.0 \
+babel-eslint@8.0.1 \
+eslint-plugin-import@2.8.0 \
+eslint-plugin-jsx-a11y@6.0.2 \
+eslint-plugin-react@7.4.0 \
+eslint-plugin-no-loops@0.3.0
 ```
 
 ## Usage
 
-1. Add `"extends": "qlean"` to your .eslintrc
+Add `"extends": "qlean"` to your .eslintrc
 
-## Motivation for disabling rules
+## Motivation
+
+#### global-require
+```js
+"global-require": 0
+```
+Rule is redundant without Node.js
 
 #### react/require-default-props
 ```js
-"react/require-default-props": 0,
+"react/require-default-props": 0
 ```
-#### react/forbid-prop-types
-```js
-"react/forbid-prop-types": 0,
-```
+Rule doesn't work with default params syntax in functional components and doesn't observe isRequired inside imported components
+
 #### react/jsx-filename-extension
 ```js
-"react/jsx-filename-extension": 0,
+"react/jsx-filename-extension": [2, { "extensions": [".js"] }]
 ```
+Use JSX only inside files with `.js` extension
+
 #### react/jsx-curly-spacing
 ```js
-"react/jsx-curly-spacing": [
-  2,
-  "never",
-  { "allowMultiline": false }
-],
+"react/jsx-curly-spacing": [2, "never", { "allowMultiline": false }]
 ```
-#### global-require
+Use stricter option for disallow spaces in paired tags
+
+#### react/jsx-tag-spacing
 ```js
-"global-require": 0,
+"react/jsx-tag-spacing": [2, {
+  "closingSlash": "never",
+  "beforeSelfClosing": "never",
+  "afterOpening": "never"
+}]
 ```
+Forbid spaces near closing bracket
+
 #### no-loops/no-loops
 ```js
 "no-loops/no-loops": 2
 ```
+Disallow use of loops (for, for-in, while, do-while, for-of)
