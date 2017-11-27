@@ -1,7 +1,7 @@
 {
   "name": "eslint-config-qlean",
   "version": "1.0.0",
-  "description": "JavaScript React Qlean Style - EsLint Shareable Config",
+  "description": "Qlean ESLint config for React",
   "main": "index.js",
   "peerDependencies": {
     "eslint": "^4.9.0",
