@@ -6,6 +6,7 @@ Install config with peerDependencies by typing following command:
 ```sh
 npm install -D eslint-config-qlean \
 eslint-config-airbnb@16.1.0 \
+eslint-config-airbnb-base@12.1.0 \
 eslint@4.9.0 \
 babel-eslint@8.0.1 \
 eslint-plugin-import@2.8.0 \
