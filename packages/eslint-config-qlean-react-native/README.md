@@ -10,7 +10,7 @@ eslint@4.9.0 \
 babel-eslint@8.0.1 \
 eslint-plugin-import@2.8.0 \
 eslint-plugin-jsx-a11y@6.0.2 \
-eslint-plugin-react@7.4.0 \
+eslint-plugin-react@7.11.1 \
 eslint-plugin-react-native@3.2.0 \
 eslint-plugin-no-loops@0.3.0
 ```
