@@ -18,7 +18,8 @@ module.exports = {
     "react-native/split-platform-components": 2,
     "react-native/no-inline-styles": 2,
     "react-native/no-color-literals": 2,
-    "no-loops/no-loops": 2
+    "no-loops/no-loops": 2,
+    "react/destructuring-assignment": ["always", { "ignoreClassFields": true }]
   },
   "globals": {
     "__DEV__": true
