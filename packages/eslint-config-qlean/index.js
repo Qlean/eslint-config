@@ -23,6 +23,7 @@ module.exports = {
       "beforeSelfClosing": "never",
       "afterOpening": "never"
     }],
-    "no-loops/no-loops": 2
+    "no-loops/no-loops": 2,
+    "react/destructuring-assignment": ["always", { "ignoreClassFields": true }]
   },
 };
