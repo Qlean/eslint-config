@@ -55,6 +55,13 @@ Use stricter option for disallow spaces in paired tags
 ```
 Forbid spaces near closing bracket
 
+#### react/destructuring-assignment
+```js
+"react/destructuring-assignment": [always, { "ignoreClassFields": true }]
+```
+Allow to omit destructing props inside classes
+
+
 #### react-native/split-platform-components
 ```js
 "react-native/split-platform-components": 2

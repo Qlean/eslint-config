@@ -55,6 +55,12 @@ Use stricter option for disallow spaces in paired tags
 ```
 Forbid spaces near closing bracket
 
+#### react/destructuring-assignment
+```js
+"react/destructuring-assignment": [always, { "ignoreClassFields": true }]
+```
+Allow to omit destructing props inside classes
+
 #### no-loops/no-loops
 ```js
 "no-loops/no-loops": 2
