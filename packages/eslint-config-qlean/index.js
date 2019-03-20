@@ -3,7 +3,8 @@ module.exports = {
   extends: [
     "airbnb-base",
     "airbnb-base/rules/strict",
-    "airbnb/rules/react"
+    "airbnb/rules/react",
+    "prettier"
   ],
   plugins: [
     "no-loops"
