@@ -25,6 +25,11 @@ module.exports = {
       "afterOpening": "never"
     }],
     "no-loops/no-loops": 2,
+    "react/jsx-curly-spacing": 0,
+    "react/jsx-tag-spacing": 0,
+    "react/jsx-closing-tag-location": 0,
+    "react/jsx-wrap-multilines": 0,
+    "react/jsx-one-expression-per-line": 0,
     "react/destructuring-assignment": ["always", { "ignoreClassFields": true }]
   },
 };
