@@ -4,7 +4,8 @@ module.exports = {
     "airbnb-base",
     "airbnb-base/rules/strict",
     "airbnb/rules/react",
-    "prettier"
+    "prettier",
+    "prettier/react"
   ],
   plugins: [
     "no-loops"
@@ -18,18 +19,7 @@ module.exports = {
     "global-require": 0,
     "react/require-default-props": 0,
     "react/jsx-filename-extension": [2, { "extensions": [".js"] }],
-    "react/jsx-curly-spacing": [2, "never", { "allowMultiline": false }],
-    "react/jsx-tag-spacing": [2, {
-      "closingSlash": "never",
-      "beforeSelfClosing": "never",
-      "afterOpening": "never"
-    }],
     "no-loops/no-loops": 2,
-    "react/jsx-curly-spacing": 0,
-    "react/jsx-tag-spacing": 0,
-    "react/jsx-closing-tag-location": 0,
-    "react/jsx-wrap-multilines": 0,
-    "react/jsx-one-expression-per-line": 0,
     "react/destructuring-assignment": ["always", { "ignoreClassFields": true }]
   },
 };
