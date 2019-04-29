@@ -7,7 +7,6 @@ module.exports = {
   ],
   "rules": {
     "global-require": 0,
-    "react/require-default-props": 0,
     "react/jsx-filename-extension": [2, { "extensions": [".js"] }],
     "react-native/split-platform-components": 2,
     "react-native/no-inline-styles": 2,

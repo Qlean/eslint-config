@@ -17,7 +17,6 @@ module.exports = {
   },
   rules: {
     "global-require": 0,
-    "react/require-default-props": 0,
     "react/jsx-filename-extension": [2, { "extensions": [".js"] }],
     "no-loops/no-loops": 2,
     "react/destructuring-assignment": ["always", { "ignoreClassFields": true }]
