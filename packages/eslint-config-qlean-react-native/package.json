@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-qlean-react-native",
-  "version": "2.1.1",
+  "version": "3.0.0",
   "description": "Qlean ESLint config for React Native",
   "main": "index.js",
   "dependencies": {
