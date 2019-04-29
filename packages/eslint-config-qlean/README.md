@@ -27,12 +27,6 @@ Add `"extends": "qlean"` to your .eslintrc
 ```
 Rule is redundant without Node.js
 
-#### react/require-default-props
-```js
-"react/require-default-props": 0
-```
-Rule doesn't work with default params syntax in functional components and doesn't observe isRequired inside imported components
-
 #### react/jsx-filename-extension
 ```js
 "react/jsx-filename-extension": [2, { "extensions": [".js"] }]
