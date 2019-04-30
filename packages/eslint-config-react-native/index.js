@@ -12,7 +12,7 @@ module.exports = {
   rules: {
     'global-require': 0,
     'react/jsx-filename-extension': [2, { 'extensions': ['.js'] }],
-    'react/destructuring-assignment': ['always', { 'ignoreClassFields': true }],
+    'react/destructuring-assignment': [2, 'always', { 'ignoreClassFields': true }],
     "react-native/no-unused-styles": 2,
     "react-native/split-platform-components": 2,
     "react-native/no-inline-styles": 2,
