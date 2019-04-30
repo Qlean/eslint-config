@@ -16,7 +16,7 @@ module.exports = {
   rules: {
     'global-require': 0,
     'react/jsx-filename-extension': [2, { 'extensions': ['.js'] }],
-    'react/destructuring-assignment': ['always', { 'ignoreClassFields': true }],
+    'react/destructuring-assignment': [2, 'always', { 'ignoreClassFields': true }],
     'no-loops/no-loops': 2,
   },
 };
