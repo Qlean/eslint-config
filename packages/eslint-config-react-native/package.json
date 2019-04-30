@@ -1,6 +1,6 @@
 {
   "name": "@qlean/eslint-config-react-native",
-  "version": "4.0.0",
+  "version": "4.1.0",
   "description": "ESLint config for React Native",
   "main": "index.js",
   "repository": {
