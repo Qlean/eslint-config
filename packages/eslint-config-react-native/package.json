@@ -1,0 +1,24 @@
+{
+  "name": "@qlean/eslint-config-react-native",
+  "version": "4.0.0",
+  "description": "ESLint config for React Native",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:Qlean/eslint-config.git"
+  },
+  "author": "Vadim Shvetsov <vadim@shvetsov.io> (https://github.com/vadimshvetsov)",
+  "dependencies": {
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-config-prettier": "^4.1.0",
+    "eslint-plugin-react-native": "^3.6.0",
+    "eslint-plugin-import": "^2.16.0",
+    "eslint-plugin-jsx-a11y": "^6.2.1",
+    "eslint-plugin-react": "^7.12.4",
+    "eslint-plugin-no-loops": "^0.3.0"
+  },
+  "peerDependencies": {
+    "eslint": "*",
+    "babel-eslint": "*"
+  }
+}
