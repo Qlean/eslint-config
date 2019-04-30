@@ -7,7 +7,7 @@ module.exports = {
   ],
   plugins: [
     'react-native',
-    'no-loops'
+    'no-loops',
   ],
   rules: {
     'global-require': 0,
@@ -21,6 +21,6 @@ module.exports = {
     'no-loops/no-loops': 2,
   },
   globals: {
-    '__DEV__': true
-  }
+    '__DEV__': true,
+  },
 };
