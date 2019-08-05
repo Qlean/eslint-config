@@ -1,0 +1,22 @@
+{
+  "name": "@qlean/eslint-config",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/qlean/eslint-config.git"
+  },
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "devDependencies": {
+    "husky": "^2.7.0",
+    "lint-staged": "^8.2.1",
+    "prettier": "^1.18.2"
+  }
+}
