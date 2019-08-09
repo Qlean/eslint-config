@@ -24,5 +24,6 @@ module.exports = {
     'no-loops/no-loops': 2,
     'react-hooks/rules-of-hooks': 2,
     'react-hooks/exhaustive-deps': 1,
+    'import/prefer-default-export': 0,
   },
 }
